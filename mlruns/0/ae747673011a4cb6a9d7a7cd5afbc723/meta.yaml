@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/ae747673011a4cb6a9d7a7cd5afbc723/artifacts
+end_time: 1711102185627
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae747673011a4cb6a9d7a7cd5afbc723
+run_name: tasteful-koi-994
+run_uuid: ae747673011a4cb6a9d7a7cd5afbc723
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102170226
+status: 3
+tags: []
+user_id: chrisgo_unix

@@ -5,7 +5,8 @@ channels:
 dependencies:
   - pandas=1.2.3
   - pip=20.3.3
-  - pytest=6.2.2
+  - pytest=8.1.1
   - scipy=1.6.1
+  - numpy=1.19.0
   - pip:
       - wandb==0.16.1

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/e5daf04f154e486ba8fc2bd6e61dce3e/artifacts
+end_time: 1711102296696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5daf04f154e486ba8fc2bd6e61dce3e
+run_name: whimsical-worm-689
+run_uuid: e5daf04f154e486ba8fc2bd6e61dce3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102283694
+status: 3
+tags: []
+user_id: chrisgo_unix

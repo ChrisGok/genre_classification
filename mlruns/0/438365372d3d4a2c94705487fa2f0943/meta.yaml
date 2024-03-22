@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/438365372d3d4a2c94705487fa2f0943/artifacts
+end_time: 1711100709553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 438365372d3d4a2c94705487fa2f0943
+run_uuid: 438365372d3d4a2c94705487fa2f0943
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711100661110
+status: 3
+tags: []
+user_id: chrisgo_unix

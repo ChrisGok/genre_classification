@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/ed2397465a534c65ac25836e459f91f7/artifacts
+end_time: 1711102170204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed2397465a534c65ac25836e459f91f7
+run_name: sneaky-kit-346
+run_uuid: ed2397465a534c65ac25836e459f91f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102152668
+status: 3
+tags: []
+user_id: chrisgo_unix

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/0cd28ad5f6e54ef389a858d7233fe2c0/artifacts
+end_time: 1711102311237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0cd28ad5f6e54ef389a858d7233fe2c0
+run_name: fearless-auk-693
+run_uuid: 0cd28ad5f6e54ef389a858d7233fe2c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102296721
+status: 3
+tags: []
+user_id: chrisgo_unix

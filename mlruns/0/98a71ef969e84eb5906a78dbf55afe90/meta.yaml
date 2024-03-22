@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/98a71ef969e84eb5906a78dbf55afe90/artifacts
+end_time: 1711100760386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98a71ef969e84eb5906a78dbf55afe90
+run_name: righteous-lamb-558
+run_uuid: 98a71ef969e84eb5906a78dbf55afe90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711100715986
+status: 4
+tags: []
+user_id: chrisgo_unix

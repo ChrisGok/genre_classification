@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/dccd99d9d15c40e8829420db4f912528/artifacts
+end_time: 1711102283672
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dccd99d9d15c40e8829420db4f912528
+run_name: caring-worm-695
+run_uuid: dccd99d9d15c40e8829420db4f912528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102270587
+status: 3
+tags: []
+user_id: chrisgo_unix
