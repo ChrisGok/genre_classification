@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/ed9a0031dee44c96aec0671c76644826/artifacts
+end_time: 1711098744549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed9a0031dee44c96aec0671c76644826
+run_name: enchanting-foal-481
+run_uuid: ed9a0031dee44c96aec0671c76644826
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711098742248
+status: 4
+tags: []
+user_id: chrisgo_unix

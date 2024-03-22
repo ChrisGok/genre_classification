@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/872270618e8343dc9d22004ca49c5f46/artifacts
+end_time: 1711103225314
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 872270618e8343dc9d22004ca49c5f46
+run_name: mercurial-mole-7
+run_uuid: 872270618e8343dc9d22004ca49c5f46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711103200896
+status: 3
+tags: []
+user_id: chrisgo_unix

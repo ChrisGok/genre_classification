@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/e554ac8c722642a28f8c8617c131c171/artifacts
+end_time: 1711102361979
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e554ac8c722642a28f8c8617c131c171
+run_name: placid-quail-997
+run_uuid: e554ac8c722642a28f8c8617c131c171
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711102254855
+status: 3
+tags: []
+user_id: chrisgo_unix

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chrisgo_unix/udacity/genre_classification/mlruns/0/8495abf7352a40e8b67e5797b45e0df1/artifacts
+end_time: 1711103168376
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8495abf7352a40e8b67e5797b45e0df1
+run_name: inquisitive-ray-967
+run_uuid: 8495abf7352a40e8b67e5797b45e0df1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711103151058
+status: 3
+tags: []
+user_id: chrisgo_unix

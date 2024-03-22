@@ -1,7 +1,7 @@
 import mlflow
 import os
 import hydra
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig, OmegaConf, ListConfig
 
 
 # This automatically reads in the configuration
@@ -20,7 +20,7 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
+        assert isinstance(config["main"]["execute_steps"], (list,ListConfig))
         steps_to_execute = config["main"]["execute_steps"]
 
     # Download step
@@ -78,7 +78,7 @@ def go(config: DictConfig):
                 "artifact_type": "segregated_data",
                 "test_size": config["data"]["test_size"],
                 "random_state": config["main"]["random_seed"],
-                "stratify": config["data"]["statify"]
+                "stratify": config["data"]["stratify"]
             }
         )
 
@@ -97,7 +97,7 @@ def go(config: DictConfig):
             parameters={
                 "train_data": "data_train.csv:latest",
                 "model_config": model_config,
-                "export_artifact": config["random_forest_pipeline"]["export_artificat"],
+                "export_artifact": config["random_forest_pipeline"]["export_artifact"],
                 "random_seed": config["main"]["random_seed"],
                 "val_size": config["data"]["val_size"],
                 "stratify": config["data"]["stratify"]
@@ -112,7 +112,7 @@ def go(config: DictConfig):
             os.path.join(root_path, "evaluate"),
             "main",
             parameters={
-                "model_export": config["random_forest_pipeline"]["export_artificat"],
+                "model_export": f"{config['random_forest_pipeline']['export_artifact']}:latest",
                 "test_data": "data_test.csv:latest"
             }
         )

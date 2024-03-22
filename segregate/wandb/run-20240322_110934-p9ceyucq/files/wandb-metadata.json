@@ -1,0 +1,81 @@
+{
+    "os": "Linux-5.4.72-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-03-22T10:09:34.866790",
+    "startedAt": "2024-03-22T10:09:34.235303",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/home/chrisgo_unix/udacity/genre_classification/segregate/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/ChrisGok/genre_classification.git",
+        "commit": "c15a2769b6d2aa5f483eeb5773ba17ac27a274c4"
+    },
+    "email": "lightheaded@gmx.de",
+    "root": "/home/chrisgo_unix/udacity/genre_classification",
+    "host": "DESKTOP-GSJF3DJ",
+    "username": "chrisgo_unix",
+    "executable": "/home/chrisgo_unix/miniconda3/envs/mlflow-4a8945420d044692a764243b03bd1c748a15e1ad/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3311.999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3311.999,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3311.999,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3311.999,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3311.999,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 250.98248672485352,
+            "used": 26.41002655029297
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 750 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 750 Ti",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 6.1501312255859375
+    }
+}
